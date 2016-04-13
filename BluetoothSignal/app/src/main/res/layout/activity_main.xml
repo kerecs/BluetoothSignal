@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/paired_devices_hint"
+        android:textColor="#ffffffff"
+        android:background="#bababa"
+        android:paddingLeft="8dip"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/already_match_device" />
+
+    <ListView
+        android:id="@+id/paired_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stackFromBottom="true"
+        android:layout_weight="1.0"
+        android:scrollbars="vertical"/>
+
+    <TextView
+        android:id="@+id/new_devices_hint"
+        android:textColor="#ffffffff"
+        android:background="#bababa"
+        android:paddingLeft="8sp"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_match_device" />
+
+    <ListView
+        android:id="@+id/new_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stackFromBottom="true"
+        android:layout_weight="2.0"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

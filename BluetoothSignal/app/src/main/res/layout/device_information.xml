@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/background">
+
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18.0sp"
+        android:paddingBottom="2dp"
+        android:text="Name"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="2dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="18.0sp"-->
+            <!--android:text="Distance:"/>-->
+
+        <TextView
+            android:id="@+id/deviceDistance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18.0sp"
+            android:text="Distance"/>
+
+    </LinearLayout>
+
+</LinearLayout>
